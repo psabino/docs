@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Documentação Cielo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- CSS -->
+	<link href="vendor/styles.css" rel="stylesheet" type="text/css" >
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="container-fluid">
+		
+       <!-- Navegação -->
+		<div class="navbar-default sidebar col-lg-2 col-md-2 col-sm-3" role="navigation" id="menu">
+               <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <img src="images/icon-burger.svg" width="24px" height="20px" alt="Menu">
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo-cielo.png" alt="Cielo"></a>
+            </div>
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <div class="clearfix"></div>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Flot Charts</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Morris.js Charts</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        </li>
+                        <li>
+                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panels-wells.html">Panels and Wells</a>
+                                </li>
+                                <li>
+                                    <a href="buttons.html">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="notifications.html">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="icons.html"> Icons</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grid</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                    </ul>
+                                    <!-- /.nav-third-level -->
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="blank.html">Blank Page</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">Login Page</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                    <div id="footer-menu" class="col-lg-12 col-md-12">
+						<div class="col-lg-6 col-md-6">
+							<div class="col-md-12">
+								<center><img src="images/icone-mail.svg" width="12px" height="11px" alt="Contato"></center>
+							</div>
+							<div class="col-md-12">
+								<center><a href="#">Contato</a></center>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="col-md-12">
+								<center><img src="images/icone-github.svg" width="12" height="12" alt="Github"></center>
+							</div>
+							<div class="col-md-12">
+								<center><a href="#">Github</a></center>
+							</div>
+						</div>
+
+					</div>
+                </div>
+                <!-- /.sidebar-collapse -->
+		
+            </div>
+		
+       
+       
+       	<!-- Coluna de Conteudo --> 
+        <div class="col-md-10 col-lg-7" id="page-wrapper">
+        	
+        	<!-- Submenu Topo -->
+			<div class="row">
+				<div id="submenu" class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" >
+				<div id="submenu-itens" class="col-lg-6 col-md-5" >
+					<a href="#" class="submenu-item">Ajuda</a> <span>Idiomas</span> <a href="#"><img class="submenu-idiomas" src="images/icone-pt-br.png" alt="Mudar idioma para Português(Brasil)"></a> <a href="#"><img class="submenu-idiomas" src="images/icone-en-us.png" alt="Change language to English (US)"></a>
+				</div>
+				<div id="submenu-busca" class="col-lg-6" >
+					
+					<input type="text">
+				
+				</div>
+			</div>
+			
+			<!-- Breadcrumb -->
+			<div id="breadcrumb" class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+				<a href="#">Início</a> / <a href="#">Pagamentos</a> / <a href="#">Cartão de Crédito</a> / Autenticável
+			</div>
+			
+			<!-- Interna -->
+			<div id="conteudo-interna" class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+				<h1>Criando uma venda com Autenticação</h1>
+				
+				<p>Para criar uma transação com autenticação que utilizará cartão de crédito, é necessário enviar uma requisição utilizando o método POST para o recurso Payment conforme o exemplo.</p>
+		  	
+		  		<!-- Alerta -->
+			  	<div id="alerta" class="col-lg-12">
+					<h1><img width="14px" height="14px" src="images/icone-alerta.svg"> Autenticação</h1>
+					<p>Nesta modalidade o portador do cartão é direcionado para o ambiente de autenticação do banco emissor do cartão onde será solicitada a inclusão da senha do cartão</p>
+				</div>
+				
+				<div class="clearfix"></div>
+				
+				<!-- Requisição -->
+				<h2>Requisição</h2>
+				
+				<div id="requisicao" class="col-lg-4 col-md-4">
+					<div id="requisicao-header" class="col-lg-4 col-md-4">
+						<h1>POST</h1>
+					</div>
+					<div id="requisicao-content" class="col-lg-8 col-md-8">
+						<h1>/1/sales/</h1>
+					</div>	
+				</div>
+				
+				<div class="clearfix"></div>
+				<br>
+				
+				<!-- Codigo Interna -->
+				<div id="codigo-interna" class="hidden-lg col-md-12">
+				
+					<div id="codigo-interna-menu">
+						<button>JSON</button>
+						<button>cURL</button>
+					</div>
+					<div id="code-interna" >
+						<button data-toggle="modal" data-target="#modal">Expandir&nbsp;&nbsp;&nbsp;<i class="fa fa-expand fa-fw"></i></button>
+					{
+						<p class="code-green" style="margin-left:20px;">MerchantOrderId":"2014111903",<br>
+						"Customer":</p>
+						<span style="margin-left:20px;">{</span><br>
+						<p class="code-green" style="margin-left:40px;">"Name":"Comprador crédito autenticação"</p>
+						<span style="margin-left:20px;">{</span><br>
+						<p class="code-green" style="margin-left:20px;">"Payment":</p>
+						<span style="margin-left:20px;">{</span><br>
+							<p class="code-green" style="margin-left:40px;">"Type":"CreditCard",<br>
+							"Amount":15700,<br>
+							"Installments":1,<br>
+							"Authenticate":true,<br>
+							"SoftDescriptor":"123456789ABCD",<br>
+							"ReturnUrl":"https://www.cielo.com.br",<br>
+							"CreditCard":</p>
+							<span style="margin-left:40px;">{</span><br>
+								<p class="code-green" style="margin-left:60px;">"CardNumber":"1234123412341231",<br>
+								"Holder":"Teste Holder",<br>
+								"ExpirationDate":"12/2030",<br>
+								"SecurityCode":"123",<br>
+									"Brand":"Visa"</p>
+							<span style="margin-left:40px;">{</span><br>
+						<span style="margin-left:20px;">{</span><br>
+					}
+					</div>
+				</div>
+				
+				<!-- Modal Expandir -->
+				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content" id="modal-codigo">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><i class="fa fa-close fa-fw"></i>Fechar</button>
+						<h4 class="modal-title" id="myModalLabel">Código Lorem Ipsum</h4>
+					  </div>
+					  <div class="modal-body">
+						<div class="row" id="teste">
+							<!-- codigo -->
+							<div id="modal-menu" class="col-lg-2 col-md-2">
+								<button>JSON</button>
+								<button>cURL</button>
+							</div>
+							<div id="modal-code" class="col-lg-10 col-md-10">
+							{
+								<p class="code-green" style="margin-left:20px;">MerchantOrderId":"2014111903",<br>
+								"Customer":</p>
+								<span style="margin-left:20px;">{</span><br>
+								<p class="code-green" style="margin-left:40px;">"Name":"Comprador crédito autenticação"</p>
+								<span style="margin-left:20px;">{</span><br>
+								<p class="code-green" style="margin-left:20px;">"Payment":</p>
+								<span style="margin-left:20px;">{</span><br>
+									<p class="code-green" style="margin-left:40px;">"Type":"CreditCard",<br>
+									"Amount":15700,<br>
+									"Installments":1,<br>
+									"Authenticate":true,<br>
+									"SoftDescriptor":"123456789ABCD",<br>
+									"ReturnUrl":"https://www.cielo.com.br",<br>
+									"CreditCard":</p>
+									<span style="margin-left:40px;">{</span><br>
+										<p class="code-green" style="margin-left:60px;">"CardNumber":"1234123412341231",<br>
+										"Holder":"Teste Holder",<br>
+										"ExpirationDate":"12/2030",<br>
+										"SecurityCode":"123",<br>
+											"Brand":"Visa"</p>
+									<span style="margin-left:40px;">{</span><br>
+								<span style="margin-left:20px;">{</span><br>
+							}
+							</div>
+							
+						  </div>	
+						</div>
+					  </div>
+					</div>
+				  </div>
+				
+					
+				<div class="clearfix"></div>
+				
+				<!-- Tabela -->
+				<table id="tabela" class="table table-striped">
+					<thead>
+					  <tr>
+						<th>Propriedade</th>
+						<th>Tipo</th>
+						<th>Tamanho</th>
+						<th>Obrigatório</th>
+						<th>Descrição</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td>MerchantId</td>
+						<td>Guid</td>
+						<td>40</td>
+						<td>Sim</td>
+						<td>Identificador da loja na Cielo</td>
+					  </tr>
+					  <tr>
+						<td>MerchantId</td>
+						<td>Guid</td>
+						<td>40</td>
+						<td>Sim</td>
+						<td>Identificador da loja na Cielo</td>
+					  </tr>
+					  <tr>
+						<td>MerchantId</td>
+						<td>Guid</td>
+						<td>40</td>
+						<td>Sim</td>
+						<td>Identificador da loja na Cielo</td>
+					  </tr>
+					  
+					</tbody>
+			  	</table>
+
+			</div>
+			
+			<!-- Rodapé Interna -->
+			<div id="footer-conteudo" class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+				<div class="row">
+						<div id="footer-conteudo-img" class="col-lg-1 col-md-1">
+							<img src="images/icone-duvida.svg" width="55px" height="53px" alt="Precisa de ajuda?"> 
+						</div>
+						<div id="footer-conteudo-texto" class="col-lg-11 col-md-11">
+							<h1>Precisa de ajuda?</h1>
+							<p>Se você não conseguiu encontrar sua resposta acima, <a href="#">entre em contato conosco</a> ou <a href="#">consulte nosso FAQ.</a></p>	
+						</div>
+				</div>
+			</div>
+			</div>
+        </div>
+        
+        <!-- Coluna Código -->
+        <div id="codigo-col" class="col-lg-3 collapse in hidden-md hidden-sm hidden-xs">
+			<div id="codigo-menu" class="col-lg-12">
+				<button>JSON</button>
+				<button>cURL</button>
+			</div>
+			<div id="code" class="col-lg-12">
+				{
+					<p class="code-green" style="margin-left:20px;">MerchantOrderId":"2014111903",<br>
+					"Customer":</p>
+					<span style="margin-left:20px;">{</span><br>
+					<p class="code-green" style="margin-left:40px;">"Name":"Comprador crédito autenticação"</p>
+					<span style="margin-left:20px;">{</span><br>
+					<p class="code-green" style="margin-left:20px;">"Payment":</p>
+					<span style="margin-left:20px;">{</span><br>
+						<p class="code-green" style="margin-left:40px;">"Type":"CreditCard",<br>
+						"Amount":15700,<br>
+						"Installments":1,<br>
+						"Authenticate":true,<br>
+						"SoftDescriptor":"123456789ABCD",<br>
+						"ReturnUrl":"https://www.cielo.com.br",<br>
+						"CreditCard":</p>
+						<span style="margin-left:40px;">{</span><br>
+							<p class="code-green" style="margin-left:60px;">"CardNumber":"1234123412341231",<br>
+							"Holder":"Teste Holder",<br>
+							"ExpirationDate":"12/2030",<br>
+							"SecurityCode":"123",<br>
+								"Brand":"Visa"</p>
+						<span style="margin-left:40px;">{</span><br>
+					<span style="margin-left:20px;">{</span><br>
+				}
+				
+			</div>
+			
+			
+		</div>
+		
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+
+
+</body>
+
+</html>
